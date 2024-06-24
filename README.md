@@ -1,2 +1,18 @@
 # earthmoving-mobile-crane-CRISP-DM-project
-Customs data cleaning, mining and outlier definition project. The aim is to automatically extract useful information from customs data for further analysis.
+**Description of the project**: Customs data cleaning, mining and outlier definition. The aim is to automatically extract useful information from customs data for further analysis.
+
+Customs data is a useful source for understanding the market of a specific region since it contains valuable information such as exporter, importer, business terms, product details, price, and et cetera, which provide aboundant insight to business. However, the data format differ from countries could be problematic, we can't simply extract the information based on specific rules. Therefore, I launched this project to automative my work.
+
+My idea contains several sections:
+
+1. **data inspection**: Unify col_names, units, currency, remove rows which contain irrelevant-keywords or abnormal prices;
+2. **data pre-processing**: Upper case the data and remove special marks;
+3. **matching the info from knowledge-base**: Matching the info in the raw data with the existed knowledge-base that scraped from the public-library;
+4. **matching the info with regex knowledge-base**: Matching the rest of raw data with designed regex knowledge-base;
+5. **backward tagging with exsisted info**: Inferential the label based on other informations in the data;
+7. **mark the outliers**: Labelling out the rows with abnormal prices for further price analysis;
+8. **categorization of key indicators by interval**
+9. **calculate the exchanging rate**
+10. **update historical data**
+
+Then, further analysis will ba made based on the cleaned data.
