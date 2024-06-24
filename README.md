@@ -9,7 +9,7 @@ My idea contains several sections:
 2. **data pre-processing**: Upper case the data and remove special marks;
 3. **matching the info from knowledge-base**: Matching the info in the raw data with the existed knowledge-base that scraped from the public-library;
 4. **matching the info with regex knowledge-base**: Matching the rest of raw data with designed regex knowledge-base;
-5. **backward tagging with exsisted info**: Inferential the label based on other informations in the data;
+5. **backward tagging with exsisted info**: Infer labels based on other information in the data, as in the example that follows;
 
     <details>
     <summary>example</summary>
