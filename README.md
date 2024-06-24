@@ -22,7 +22,7 @@ My idea contains several sections:
     </details>
 
 7. **mark the outliers**: Labelling out the rows with abnormal prices for further price analysis;
-8. **categorization of key indicators by interval**
+8. **categorize key indicators by interval**
 9. **calculate the exchanging rate**
 10. **update historical data**
 
