@@ -10,6 +10,17 @@ My idea contains several sections:
 3. **matching the info from knowledge-base**: Matching the info in the raw data with the existed knowledge-base that scraped from the public-library;
 4. **matching the info with regex knowledge-base**: Matching the rest of raw data with designed regex knowledge-base;
 5. **backward tagging with exsisted info**: Inferential the label based on other informations in the data;
+
+    <details>
+    <summary>example</summary>
+      
+    | item | brand | model | capacity | type |
+    |------|------|------|------|------|
+    | A    | ✓    | ✓    | ✓    | ✓    |
+    | B    | ✓    | ✘    | ✓    | ✓    |
+    
+    </details>
+
 7. **mark the outliers**: Labelling out the rows with abnormal prices for further price analysis;
 8. **categorization of key indicators by interval**
 9. **calculate the exchanging rate**
