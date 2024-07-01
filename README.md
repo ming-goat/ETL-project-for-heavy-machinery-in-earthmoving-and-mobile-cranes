@@ -27,3 +27,5 @@ My idea contains several sections:
 10. **update historical data**
 
 Then, further analysis will ba made based on the cleaned data.
+
+Here I attached my project notebook and the Py file for reference. The excel name in 824952 is the original dataframe. Enjoy yo!
