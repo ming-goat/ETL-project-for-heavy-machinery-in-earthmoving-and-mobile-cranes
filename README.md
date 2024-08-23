@@ -28,8 +28,6 @@ My idea contains several sections:
 
 Then, further analysis will be made based on the cleaned data.
 
-In practice, one remaining problem is that there are still some models with relatively simple naming rules are mislabeled by the serials number. I have an idea but do not have time to update my code yet, which is that I wanna divide the description cols by comma or space, and filter out the string length to exclude the serial numbers to improve the accuracy.
+In practice, one remaining problem is that there are still some models with relatively simple naming rules are mislabeled by the serials number. For further improvements, I want to divide the description cols by comma or space, and filter out the string length to exclude the serial numbers to improve the accuracy. Additionally, I used iterrows functions a lot, improve running efficiency will be my another consideration for further steps.
 
-Lastly, I used iterrows functions a lot. For further step, improve the running efficiency is my another consideration.
-
-Here I attached my project notebook and the Py file for reference. The excel name in 824952 is the original dataframe. Enjoy yo 😉!
+Here I attached my project notebook and the Py file for reference. Enjoy 😉!
