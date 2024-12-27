@@ -1,4 +1,4 @@
-# ETL project for earthmoving and mobile crane heavy machinenaries
+# ETL project for heavy machinery in earthmoving and mobile cranes
 **Description of the project**: Customs data cleaning, mining and outlier definition. The aim is to automatically extract useful information from customs data for further analysis.
 
 Customs data is a useful source for understanding the market of a specific region since it contains valuable information such as exporter, importer, business terms, product details, price, and et cetera, which provide aboundant insight to business. However, the data format differ from countries could be problematic, we can't simply extract the information based on specific rules. Therefore, I launched this project to automative my work.
